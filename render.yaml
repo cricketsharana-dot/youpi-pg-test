@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: youpi-pg-visual-preview
+    runtime: static
+    buildCommand: echo "Static visual preview"
+    staticPublishPath: .
